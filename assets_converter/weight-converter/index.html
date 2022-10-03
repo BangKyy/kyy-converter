@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- FAV ICON -->
+    <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
+    <!-- BOX ICONS -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- GOOGLE FONTS -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- STYLE CSS -->
+    <link rel="stylesheet" href="weight-css/weight.css">
+
+    <title>Kyy Weight Converter</title>
+
+</head>
+
+<body>
+    <header>
+        <nav id="navbar">
+            <div class="menu">
+                <div>
+                    <img src="/img/KyyLogo.png" class="logo">
+                    <ul>
+                        <li><a href="../index.html#home">Home</a></li>
+                        <li><a href="../index.html#usage">Usage</a></li>
+                        <li><a href="../index.html#categories">Categories</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="../index.html#about">About</a></li>
+                        <li><a href="../index.html#contact">Contact</a></li>
+                    </ul>
+                    <ul class="social-media">
+                        <li><a href="https://github.com/BangKyy">
+                                <i class='bx bxl-github'></i>
+                            </a></li>
+                        <li><a href="https://www.instagram.com/kyy.rip/">
+                                <i class='bx bxl-instagram'></i>
+                            </a></li>
+                        <li><a href="https://www.linkedin.com/in/rifky-zaidan-miftahurrohman-2a7648249">
+                                <i class='bx bxl-linkedin'></i>
+                            </a></li>
+                    </ul>
+                    <form>
+                        <div class="input-wrap">
+                            <input type="search" placeholder="Search..." />
+                            <button type="submit">
+                                <i class='bx bx-search'></i>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="container-nav">
+                <a href="../index.html" class="brand">Kyy.</a>
+                <div class="container-inner">
+                    <ul>
+                        <li><a href="../index.html#home">Home</a></li>
+                        <li><a href="../index.html#usage">Usage</a></li>
+                        <li><a href="../index.html#categories">Categories</a></li>
+                    </ul>
+                    <form>
+                        <div class="input-wrap">
+                            <input type="search" placeholder="Search..." />
+                            <button type="submit">
+                                <i class='bx bx-search'></i>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+                <i class='bx bx-menu' id="menu-btn"></i>
+            </div>
+        </nav>
+    </header>
+
+    <section class="weight-section">
+        <img src="weight-img/weight.svg" alt="ruller" class="main-icon">
+        <div class="title-container">
+            <h2>Weight Converter</h2>
+        </div>
+
+        <div class="amount-container">
+            <label for="amount">Enter Amount</label>
+            <input type="number" name="amount" id="amount">
+        </div>
+
+        <div class="unit-converter">
+            <div class="left">
+                <p>From</p>
+                <div class="select-container">
+                    <select name="from" id="from">
+                        <option value="miligram" class="option">miligram</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="middle">
+                <span class="material-icons swap">
+                    swap_horiz
+                </span>
+            </div>
+
+            <div class="right">
+                <p>To</p>
+                <div class="select-container to">
+                    <select name="to" id="to">
+                        <option value="miligram" class="option">miligram</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <div class="formular-container">
+            <span class="title">formular</span>
+            <span class="content"> waiting...</span>
+        </div>
+
+        <div class="result-container">
+            <label for="result">Result</label>
+            <input type="text" name="result" id="result">
+        </div>
+        <p class="copyright">&#169; 2022 Kyy. Created By Rifky Zaidan.</p>
+    </section>
+    
+
+    <script src="weight-js/weight.js"></script>
+</body>
+</html>
