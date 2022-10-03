@@ -1,7 +1,5 @@
 # Kyy Converter Project
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/08f804a5-3995-4143-af71-676513d19ec6/deploy-status)](https://app.netlify.com/sites/kyy-converter/deploys)
-
 ## Description
 
 This project contains the types of converters that are useful for your needs. Covers only a few. Interesting to visit.
