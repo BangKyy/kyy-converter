@@ -4,9 +4,9 @@
 
 This project contains the types of converters that are useful for your needs. Covers only a few. Interesting to visit.
 
-## Installation
+## Version Web
 
-Before you start, ensure you have your own [OpenWeather API-Key](http://openweathermap.org/price) to be able to retrive the weather data.
+3 October 2022 - v1.0.0
 
 ## Contact us
 
