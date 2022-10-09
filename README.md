@@ -6,7 +6,8 @@ This project contains the types of converters that are useful for your needs. Co
 
 ## Version Web
 
-3 October 2022 - v1.0.0
+3 October 2022 - v1.0
+10 October 2022 - v1.5
 
 ## Contact us
 
