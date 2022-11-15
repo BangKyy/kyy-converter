@@ -9,6 +9,8 @@ This project contains the types of converters that are useful for your needs. Co
 3 October 2022 - v1.0 
 </br>
 10 October 2022 - v1.5
+</br>
+15 November 2022 - v2.0
 
 ## Contact us
 
